@@ -1,0 +1,52 @@
+body{
+    background-color:black;
+}
+p{
+    color:#19c203;
+    text-shadow:0 0 5px rgb(134, 134, 134);
+    font-size: 22px;
+    font-family:Exo 2, sans-serif;
+}
+.rainbow{
+  text-align:center ;
+  font-size: 40px;
+  font-weight: bold;
+  background: linear-gradient(
+    90deg,
+    green,
+    black,
+    green
+  );
+  background-size: 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow 8s linear infinite;
+}
+@keyframes rainbow {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+h1{
+text-align: center;
+color:white;
+}
+.center{
+    text-align: center;
+}
+h2{
+  color:white;
+}
+table{
+  border-collapse:collapse;
+  
+}
+td{
+  border: 1px solid #19c203;
+  color:white;
+  padding:9px 9px;
+  text-align:center;
+}
